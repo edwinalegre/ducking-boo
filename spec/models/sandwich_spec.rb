@@ -10,7 +10,4 @@ RSpec.describe Sandwich, type: :model do
     expect(Sandwich.new()).to respond_to(:name)
   end
 
-  it 'should respond to name' do
-    expect(Sandwich.new()).to respond_to(:float)
-  end
 end
